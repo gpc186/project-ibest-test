@@ -10,6 +10,25 @@ body{
     width: 100dvw;
     height: 8dvh;
     background-color: aqua;
-    display: flexbox;
+    display: flex;
     flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.header img{
+    padding-left: 2dvh;
+    padding-right: 2dvh;
+}
+
+.logo_image_header img{
+    height: 7dvh;
+    width: auto;
+}
+
+.user_icon img,
+.menu_bar img{
+    height: 5dvh;
+    width: auto;
 }
