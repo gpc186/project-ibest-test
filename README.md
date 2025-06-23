@@ -19,6 +19,7 @@ Sistema tipo "ibest" que serve como votação para criadores de conteudo, que co
 
 - Figma e canva para design [Link aqui](https://www.figma.com/design/uOUOyQvLXgQCdhTz3WBPBT/Project?node-id=0-1&p=f&t=Zr8orpdY596XDHIH-0)
 - Vs code
+- Git/github
 - Linguagens:
     - HTML
     - CSS

@@ -1,3 +1,15 @@
 *{
     cursor: url(/Media/Cursor/Pointer.png), auto;
 }
+
+body{
+    margin: 0;
+}
+
+.header{
+    width: 100dvw;
+    height: 8dvh;
+    background-color: aqua;
+    display: flexbox;
+    flex-direction: row;
+}
