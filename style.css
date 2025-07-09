@@ -131,7 +131,26 @@ body{
 }
 
 .box_winners{
-    width: 65dvw;
-    height: 75dvh;
+    width: 70dvw;
+    height: 85dvh;
     background-color: aliceblue;
+    border-radius: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.box_winners_table1,
+.box_winners_table2,
+.box_winners_table3,
+.box_winners_table4{
+    display: flex;
+    width: 40%;
+    height: 40%;
+}
+
+.box_winners_table_image img{
+    width: 35%;
+    height: auto;
 }
