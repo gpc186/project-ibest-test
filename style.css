@@ -1,14 +1,19 @@
 /* Selecionando o cite inteiro para colocar o cursor personalizado */
 
-*{
-    cursor: url(/Media/Cursor/Pointer.png), auto;
-}
-
 body{
     margin: 0;
     font-family: "Outfit", sans-serif;
     font-optical-sizing: auto;
     font-style: normal;
+    cursor: url(/Media/Cursor/Pointer.png), default;
+}
+
+a {
+    cursor: url(/Media/Cursor/Click.png), pointer;
+}
+
+span {
+    cursor: url(/Media/Cursor/Text.png), text;
 }
 
 /* Header do site e configuração dos icones */
@@ -148,9 +153,37 @@ body{
     display: flex;
     width: 40%;
     height: 40%;
+    justify-content: center;
+    align-items: center;
+    padding: 1%;
+}
+
+.box_winners_table_image{
+    width: 45%;
+    height: auto;
 }
 
 .box_winners_table_image img{
-    width: 35%;
+    width: 100%;
     height: auto;
+}
+
+.box_winners_table_text {
+    display: flex;
+    flex-direction: column;
+    padding-left: 2.5%;
+    width: 55%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.box_winners_table_text img{
+    width: 60%;
+    height: auto;
+}
+
+.box_winners_table_title {
+    font-size: 3rem;
+    padding-bottom: 6%;
 }
